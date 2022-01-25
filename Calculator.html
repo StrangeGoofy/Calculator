@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Калькулятор</title>
+    <link rel="stylesheet" href="Calculator.css" text="type/css">
+</head>
+
+<body>
+    <div class="box">
+        <div class="button input">
+            <form name="form">
+                <input type="text" name="textview" readonly>
+            </form>
+        </div>
+        <div class="button clean" onclick="clean()">C</div>
+        <div class="button delete" onclick="deleteSymbol()">&larr;</div>
+        <div class="button" onclick="insert(7)">7</div>
+        <div class="button" onclick="insert(8)">8</div>
+        <div class="button" onclick="insert(9)">9</div>
+        <div class="button" onclick="insert('*')">&times;</div>
+        <div class="button" onclick="insert(4)">4</div>
+        <div class="button" onclick="insert(5)">5</div>
+        <div class="button" onclick="insert(6)">6</div>
+        <div class="button" onclick="insert('/')">&divide;</div>
+        <div class="button" onclick="insert(1)">1</div>
+        <div class="button" onclick="insert(2)">2</div>
+        <div class="button" onclick="insert(3)">3</div>
+        <div class="button" onclick="insert('+')">+</div>
+        <div class="button zero" onclick="insert(0)">0</div>
+        <div class="button equal" onclick="equal_Kek()">=</div>
+        <div class="button minus" onclick="insert('-')">-</div>
+    </div>
+    <script src="Calculator.js"></script>
+</body>
+
+</html>
